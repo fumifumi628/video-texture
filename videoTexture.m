@@ -2,8 +2,8 @@
 % http://www.cc.gatech.edu/cpl/projects/videotexture/SIGGRAPH2000/videotex.pdf
 
 % OPTIONS %%%%%%%%%%%%%%%%%%%%%%%%
-INPUT_STRING = 'source-videos/clock.mpg'; % Input video name
-OUTPUT_STRING = 'clock-test.avi';  % Output video name
+INPUT_STRING = 'source-videos/fumiya2.mp4'; % Input video name
+OUTPUT_STRING = 'fumi-test2.avi';  % Output video name
 VERBOSE = true; verbose = true;
 
 % Algorithm settings
@@ -13,8 +13,8 @@ VIDEO_LOOPS = true;
 PRESERVE_MOTION = true;
 
 % Parameters
-NEIGHBORS = 2;
-SIGMA_MULTIPLE = .005;
+NEIGHBORS =3;
+SIGMA_MULTIPLE = .0001; %もとは0.005
 OUTPUT_LENGTH_FACTOR = 3;
 
 % OUTPUT_ROW = 240;
